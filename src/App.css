@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.navbar{
+.navbar {
   height: 10vh;
   display: flex;
   justify-content: space-around;
@@ -11,9 +11,28 @@
   color: white;
 }
 
-.links{
+.links {
   display: flex;
   justify-content: space-between;
   list-style: none;
   width: 20%;
+}
+
+.links li {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.navbar a:hover {
+  background-color: rgb(137, 244, 14);
+  border-radius: 10px;
+  
+}
+
+a:hover li{
+  color: black;
 }
